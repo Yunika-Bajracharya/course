@@ -1,0 +1,124 @@
+
+	body {
+  font-size: 20px;
+  color: #FB9039;
+  background-color: #1F3044;
+}
+ /* Header */
+#header-nav{
+  background-color: #646C79;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand{
+  padding-top: 10px;
+  height: 60px;
+}
+
+.navbar-brand h1 { /*restaurant name */
+  font-family: 'Philosopher', serif;
+  color:#FB9039;
+  font-size: 2.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+}
+
+ #nav-list {
+  margin-top: 10px;
+ } 
+
+ #nav-list a {
+  color: #772014;
+  text-align: center;
+ }
+
+ #nav-list a:hover {
+  background: #FB9039;
+ }
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #FB9039;  
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* End Header */
+
+
+
+/* Home Page */
+
+#topic {
+  font-size: 40px;
+  color: #FB9039;
+  margin-bottom: 20px;
+}
+
+ #Dal-Bhat-Tarkari, #MOMO, #SelRoti {
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: justify;
+    font-family: cursive;
+    border: 3px solid #646C79;
+    padding:60px 4px 8px 8px;
+    background-color: #FB9039; 
+    color: #1F3044; 
+    font-weight: bold;
+  }
+
+  #Dal-Bhat-Tarkari span, #MOMO span, #SelRoti span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: #646C79;
+    padding-top: 10px;
+      }
+
+  /* End Home Page*/
+
+
+/********** Mobile ***********/
+@media (max-width: 767px) {
+/*header*/
+   .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+   }
+   
+   .navbar-brand h1 { /* Restaurant Name */
+    padding-top: 10px;
+    font-size: 7vw;  /*1 vw = 1 % of viewport*/
+   }
+
+   #collapsable-nav a { /*collapsed nav menu glyph*/
+     font-size: 1.2em;
+     color: #1F3044;
+   }
+
+   #collapsable-nav a span { /*collapsed nav menu glyph*/
+     font-size: 1em;
+     margin-right: 10px;
+   }
+
+   /*header end*/
+
+   /* Home Page */
+  #Dal-Bhat-Tarkari, #MOMO, #SelRoti {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /*home page end*/
+}
+
